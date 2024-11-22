@@ -3,7 +3,7 @@ import mongoose from "mongoose";
 import dotenv from "dotenv"
 import bookRoute from "./route/book.route.js"
 import userRoute from "./route/user.route.js"
-const cors = require('cors');
+import cors from "cors";
 
 
 dotenv.config();
