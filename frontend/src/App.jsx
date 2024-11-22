@@ -14,11 +14,11 @@ import Abouts from './Abouts/Abouts';
      <>
      <div className='dark:bg-slate-900 dark:text-white'>
     <Routes>
-      <Route path='/' element={<Home/>}/>
-      <Route path='/course' element={authUser?<Courses/>:<Navigate to="/signup"/>}/>
-      <Route path='/signup' element={<Signup/>}/>
-      <Route path='/Contacts' element={<Contacts/>}/>
-      <Route path='/Abouts' element={<Abouts/>}/>
+      <Route path='https://book-nexus-frontend.vercel.app/' element={<Home/>}/>
+      <Route path='https://book-nexus-frontend.vercel.app/course' element={authUser?<Courses/>:<Navigate to="/signup"/>}/>
+      <Route path='https://book-nexus-frontend.vercel.app/signup' element={<Signup/>}/>
+      <Route path='https://book-nexus-frontend.vercel.app/Contacts' element={<Contacts/>}/>
+      <Route path='https://book-nexus-frontend.vercel.app/Abouts' element={<Abouts/>}/>
       
     </Routes>
     <Toaster />
