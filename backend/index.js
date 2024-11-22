@@ -11,13 +11,7 @@ dotenv.config();
 const port =process.env.PORT || 3000;
 const app = express()
 const URI=process.env.MongoDBURI;
-app.use(cors(
-    {
-        origin:[""],
-        methods:["POST","GET"],
-        credentials:true
-    }
-));
+app.use(cors());
 app.use(express.json());
 
 //connect to moongoDB
