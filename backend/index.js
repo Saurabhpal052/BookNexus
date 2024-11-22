@@ -11,11 +11,10 @@ dotenv.config();
 const port =process.env.PORT || 3000;
 const app = express()
 const URI=process.env.MongoDBURI;
-app.use(cors(
-    {
-       origin: 'https://book-nexus-frontend.vercel.app/',
-    }
-));
+app.use(cors({
+    origin: 'https://book-nexus-frontend.vercel.app',  // Corrected the trailing slash issu
+}));
+app.options('*', cors());  // Allow all methods for preflight requests
 app.use(express.json());
 
 //connect to moongoDB
