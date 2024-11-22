@@ -13,7 +13,7 @@ const app = express()
 const URI=process.env.MongoDBURI;
 app.use(cors(
     {
-        origin:["https://book-nexus-frontend.vercel.app/"],
+        origin:["https://book-nexus-frontend.vercel.app"],
         methods:["POST","GET"],
         credentials:true
     }
