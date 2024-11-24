@@ -9,7 +9,7 @@ export const Freebook = () => {
      useEffect(()=>{
       const getbook=async()=>{
         try {
-          const results=await axios.get("https://book-nexusapi.vercel.app/book");
+          const results=await axios.get("https://book-nexus-api.vercel.app/book");
           setBook(results.data);
           
           
