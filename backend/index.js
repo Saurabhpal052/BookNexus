@@ -19,11 +19,10 @@ app.use(express.json());
 
 //connect to moongoDB
 try {
-    mongoose.connect(URI,{
-      useNewUrlParser:true,
-      useUnifiedTopology:true, 
-    });
-    console.log("Connected to mongoDB dont")
+   mongoose
+  .connect(uri)
+  .then(() => console.log("Connected to MongoDB"))
+  .catch((err) => console.error("Failed to connect to MongoDB:", err));
 } catch (error) {
     console.log("Error",error);
 }
