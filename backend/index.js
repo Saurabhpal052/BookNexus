@@ -29,7 +29,7 @@ try {
 }
 //defining routes
 app.get("/",(req,res)=>{
-  res.send(" Backend Running")
+  res.send(" Backend is Running")
 })
 app.use("/book",bookRoute)
 app.use("/user",userRoute);
