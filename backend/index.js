@@ -10,7 +10,7 @@ dotenv.config();
 
 const port =process.env.PORT || 3000;
 const app = express()
-const URI=mongodb+srv://saurabhpal9832:lyy44NawsGPdOD32@cluster0.ualdy.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0;
+const URI="mongodb+srv://saurabhpal9832:lyy44NawsGPdOD32@cluster0.ualdy.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 app.use(cors({
     origin: 'https://book-nexus-frontend.vercel.app',  // Corrected the trailing slash issu
 }));
