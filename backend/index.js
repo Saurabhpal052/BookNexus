@@ -28,7 +28,7 @@ try {
 }
 //defining routes
 app.get("/",(req,res)=>{
-  res.send("jai ho")
+  res.send(" Backend Running")
 })
 app.use("/book",bookRoute)
 app.use("/user",userRoute);
