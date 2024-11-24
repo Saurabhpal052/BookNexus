@@ -22,7 +22,7 @@ function Course() {
         <div className='max-w-screen-2xl container mx-auto md:px-20 px-4 top-0 right-0'>
             <div className='mt-28 items-center justify-center text-center'>
                 <h1 className='text-2xl font-semibold md:text-4xl'> We're delighted to have you<span className='text-pink-500'>Here!</span></h1>
-                <p className='mt-12'>fasdfas fsdj lfjalsdf saldfj al lkjflkasd flasdjflad flkadfjlkasdjf lkjfa ;lsdfalsd;fjla;sdf asldkfjoiaf kfjsadkfj osfjopaksdf ofjoias df[aoisdfjoiasdj fo  oiafjoasdjfokasjdfoasdd osdfjasd fjasodfjoasdj foij </p>
+                <p className='mt-12'>All content available on this website, including but not limited to eBooks, audiobooks, images, logos, and text, is either owned by BookNexus or licensed for use on this platform. Unauthorized reproduction, distribution, or commercial use of any content is strictly prohibited and may result in legal action. Users are responsible for ensuring that downloaded materials are used solely for personal, non-commercial purposes, in compliance with copyright laws.</p>
                 <Link to="/">
                 <button className='bg-pink-500 text-white px-4 py-2  rounded-md hover:bg-pink-700 duration-300 mt-6'>Back </button>
                 </Link>
