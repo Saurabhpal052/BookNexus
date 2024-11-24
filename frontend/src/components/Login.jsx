@@ -14,7 +14,7 @@ function Login() {
           email:data.email,
           password:data.password
         }
-        await axios.post("https://book-nexusapi.vercel.app/user/login",userInfo)
+        await axios.post("https://book-nexus-api.vercel.app/user/login",userInfo)
         .then((res)=>{
           console.log(res.data);
           if(res.data){
