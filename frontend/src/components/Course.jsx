@@ -7,7 +7,7 @@ function Course() {
     useEffect(()=>{
         const getbook=async()=>{
             try {
-            const res=await axios.get("https://book-nexusapi.vercel.app/book");
+            const res=await axios.get("https://book-nexus-api.vercel.app/book");
             console.log(res)
             setBook(res.data);
             } catch (error) {
