@@ -27,7 +27,9 @@ try {
     console.log("Error",error);
 }
 //defining routes
-
+app.get("/",()=>{
+    res.send("Deployed successfully")
+});
 app.use("/book",bookRoute)
 app.use("/user",userRoute);
 
