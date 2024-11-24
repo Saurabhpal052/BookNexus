@@ -20,7 +20,7 @@ app.use(express.json());
 //connect to moongoDB
 try {
    mongoose
-  .connect(uri)
+  .connect(URI)
   .then(() => console.log("Connected to MongoDB"))
   .catch((err) => console.error("Failed to connect to MongoDB:", err));
 } catch (error) {
